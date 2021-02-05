@@ -1,0 +1,42 @@
+.postContent {
+  background-color:gainsboro;
+  width: 700px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 12% 1fr;
+  margin-left: 27%;
+  margin-top: 2%;
+  border-radius: 10px;
+  font-family: 'Lato', sans-serif;
+}
+  
+.ava {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+  
+.contentText {
+  display: flex;
+  align-items: center;
+}
+  
+.nickName,
+.date {
+  padding-left: 7px;
+  color: rgb(173, 173, 173);
+}
+  
+.name {
+  font-weight: 700;
+}
+  
+.content {
+  margin-top: -12px;
+}
+  
+.image {
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+} 
